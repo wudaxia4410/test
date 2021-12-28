@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(MainActivity.this, permissions, 1);
         } else{
             requestLocation();
+
         }
     }
 
